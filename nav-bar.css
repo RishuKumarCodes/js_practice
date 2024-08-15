@@ -1,0 +1,12 @@
+nav{
+    display: flex;
+    justify-content: left;
+}
+a{
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 5rem;
+    &:hover{
+        background-color:rgba(70, 70, 70, 0.164);
+    }
+}

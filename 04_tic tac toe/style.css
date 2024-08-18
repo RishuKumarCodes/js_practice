@@ -91,7 +91,15 @@ nav ul{
 .gameInfo div{
     display: flex;
     align-items: center;
+    /* background-color: #911d91; */
 }
+.scorecount{
+    display: flex;
+    padding: 1px;
+    font-size: large;
+    justify-content: space-between;
+}
+
 #reset, #audio {
     margin: 0 23px;
     padding: 1px 18px;

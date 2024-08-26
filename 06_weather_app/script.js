@@ -7,6 +7,8 @@ const weatherIcon = document.querySelector(".weather-icon");
 async function checkWeather(city) {
     const weatherElement = document.querySelector(".weather");
     weatherElement.style.height = weatherElement.scrollHeight + "px";
+    document.querySelector(".weather img").style.opacity = "1";
+
     const response = await fetch(apiUrl + `&q=${city}` +`&appid=${apiKey}`);
     var data = await response.json();
     document.querySelector(".city").innerHTML = data.name;
